@@ -6,8 +6,7 @@ from telegram.ext import (
     CallbackQueryHandler, ContextTypes, filters
 )
 
-BOT_TOKEN = os.getenv("8668259306:AAFbVdfoiDAzhz77UTuCOXWrR-aeqTxufaI")
-
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 DB_FILE = "users.json"
 
 # Load / Save DB
